@@ -16,7 +16,7 @@ a {
 
 body{
   font-family: BankGothic;
-  background-image: url(images/stars.jpg);
+  background-image: url(images/night.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-color: black; 
@@ -54,7 +54,7 @@ body{
 	margin: 5vh 20vw 5vh 20vw;
 	text-align: center;
 	line-height: 3rem;
-	margin-top: 8rem;
+	margin-top: 6rem;
   padding: 3rem;
   user-select: none;
 }
@@ -62,6 +62,11 @@ body{
 .consoleItem {
 	color: #FF0000;
   font-size: 40px;
+}
+
+#message {
+  font-size: 30px;
+  color: #FFFFFF;
 }
 
 /* Earth and Mars Animations */
@@ -97,31 +102,47 @@ body{
 /* Alternative Backgrounds */
 
 .bgchange {
-  background-image: url(images/stars.jpg);
+  background-image: url(images/night.jpg);
 }
 
 .bgchange1 {
-  background-image: url(images/stars1.jpg);
+  background-image: url(images/night1.jpg);
 }
 
 .bgchange2 {
-  background-image: url(images/stars2.jpg);
+  background-image: url(images/night2.jpg);
 }
 
 .bgchange3 {
-  background-image: url(images/sky.jpg);
+  background-image: url(images/night3.jpg);
 }
 
 .bgchange4 {
-  background-image: url(images/sky1.jpg);
+  background-image: url(images/night4.jpg);
 }
 
 .bgchange5 {
-  background-image: url(images/sea.jpg);
+  background-image: url(images/day.jpg);
 }
 
 .bgchange6 {
-  background-image: url(images/mountain.jpg);
+  background-image: url(images/day1.jpg);
+}
+
+.bgchange7 {
+  background-image: url(images/day2.jpg);
+}
+
+.bgchange8 {
+  background-image: url(images/day3.jpg);
+}
+
+.bgchange9 {
+  background-image: url(images/day4.jpg);
+}
+
+.bgchange10 {
+  background-image: url(images/sky1.jpg);
 }
 
 
