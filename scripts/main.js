@@ -14,7 +14,7 @@ function updateTime(){
 setInterval (updateTime , 1000);
 
 function changebg(number){
-    if (number < 5 || number > 20) {
+    if (number < 6 || number > 20) {
       document.getElementById('message').innerHTML = 'Time to sleep!';
     } else if (5 < number < 20) {
       document.getElementById('message').innerHTML = 'Have a nice day!';
