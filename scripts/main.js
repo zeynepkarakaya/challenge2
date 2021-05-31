@@ -2,7 +2,7 @@ function updateTime(){
 
   var marsDay = new Date();
   document.getElementById('date').innerHTML = marsDay.getDate() + ' / ' + (marsDay.getMonth()+1) + ' / ' + (marsDay.getFullYear()+11);
-  document.getElementById('time').innerHTML = changebg(addLeadingZero(marsDay.getHours())) + ' : ' + addLeadingZero(marsDay.getMinutes()) + ' : ' + addLeadingZero(marsDay.getSeconds());
+  document.getElementById('time').innerHTML = daynight(addLeadingZero(marsDay.getHours())) + ' : ' + addLeadingZero(marsDay.getMinutes()) + ' : ' + addLeadingZero(marsDay.getSeconds());
   function addLeadingZero(number){
     if (number < 10) {
       number = '0'+ number;
@@ -13,7 +13,7 @@ function updateTime(){
 
 setInterval (updateTime , 1000);
 
-function changebg(number){
+function daynight(number){
     if (number < 6 || number > 20) {
       document.getElementById('message').innerHTML = 'Time to sleep!';
     } else if (5 < number < 20) {
